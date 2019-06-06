@@ -8,12 +8,12 @@ To run this project:
 
 git clone https://github.com/caiovini/e-commerce-ipfs.git
 
-npm install to install dependencies
+"npm install" to install dependencies
 
-npm start to start the project
+"npm start" to start the project
 
 
 
 Also run the server on: https://github.com/caiovini/orbitdb-server
 
-Run an instance of ipfs: https://github.com/ipfs/go-ipfs using the command "ipfs daemon --enable-pubsub-experiment"
+Run an instance of go-ipfs: https://github.com/ipfs/go-ipfs using the command "ipfs daemon --enable-pubsub-experiment"
