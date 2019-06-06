@@ -1,0 +1,27 @@
+.card-products{
+
+    width: 15rem;
+    height: auto;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.row-products{
+
+   justify-content: center;
+}
+
+.form-search{
+
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.pagination{
+
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+

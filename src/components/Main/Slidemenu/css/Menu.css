@@ -1,0 +1,42 @@
+#flyoutMenu {
+  width: 200px;
+  height: 100vh;
+  background-color: rgba(245, 237, 237, 0.904);
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: transform .3s
+              cubic-bezier(0, .52, 0, 1);
+  overflow: scroll;
+  z-index: 1000;
+}
+
+  #flyoutMenu .react-dot{
+
+    size: 10px;
+  }
+   
+  #flyoutMenu.hide {
+    transform: translate3d(-100vw, 0, 0);
+  }
+   
+  #flyoutMenu.show {
+    transform: translate3d(0vw, 0, 0);
+    overflow: scroll;
+  }
+   
+  #flyoutMenu h2 a {
+    color: rgb(34, 33, 33);
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+   
+  #flyoutMenu h2 a:hover {
+    text-decoration: underline;
+  }
+
+  #flyoutMenu h1{
+    font-size: 25px;
+    margin-top: 10px;
+  }

@@ -1,0 +1,24 @@
+.footer {
+    height: 3em;
+    background-color: rgba(245, 237, 237, 0.904);
+    color: rgb(119, 101, 101);
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: lighter;
+    margin-top: 5px;
+  }
+
+  .footer h4{
+
+    margin-top: 10px;
+  }
+
+  .img-svg svg{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+  }  
+  

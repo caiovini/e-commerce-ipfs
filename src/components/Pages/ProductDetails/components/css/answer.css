@@ -1,0 +1,11 @@
+.vote-style{
+
+    margin-left: 5px
+}
+
+
+.vote-style:link { color: #FF0000; }
+.vote-style:visited { color: #666666; }
+.vote-style:hover { color: rgb(0, 0, 0); }
+.vote-style:active { color: #0000FF; }
+.vote-style:focus { color:  rgb(0, 0, 0); }

@@ -1,0 +1,13 @@
+.logo h1 {
+    font-size: 40px;
+    margin: 40px 0;font-weight: 400;
+}
+
+.logo h1 a {
+    color: #999;
+}
+
+.logo h1 a:hover {text-decoration: none;opacity: .7}
+.logo h1 a span {
+    color: #1abc9c;
+}

@@ -1,0 +1,27 @@
+.card-products-details{
+
+    margin-top: 2%;
+    height: auto;
+    width: auto;
+}
+
+
+.menu-desc-details h2{
+
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 0.5%;
+}
+
+
+.comment {
+    padding-top: 1rem;
+    margin: 2rem auto;
+}
+
+.comment-logo {
+    height: 80px;
+}
+
