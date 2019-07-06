@@ -46,10 +46,10 @@ class Products extends Component {
 
     handleClick = (event) => {
 
-        if(event.toElement.id !== 'html-id'){               // Check which elements 
-            if(event.toElement.id !== 'category-id'){       // the user can click without
-                if(event.toElement.id !== 'roundButton'){   // hiding the sliding menu
-                    if(event.toElement.id !== 'flyoutMenu' && this.state.visible){
+        if(event.target.id !== 'html-id'){               // Check which elements 
+            if(event.target.id !== 'category-id'){       // the user can click without
+                if(event.target.id !== 'roundButton'){   // hiding the sliding menu
+                    if(event.target.id !== 'flyoutMenu' && this.state.visible){
                         
                         this.setState({ visible: false });  //Hide menu
                     }
