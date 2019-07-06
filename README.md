@@ -19,6 +19,8 @@ Also run the server on: https://github.com/caiovini/orbitdb-server
 Run an instance of go-ipfs: https://github.com/ipfs/go-ipfs using the command "ipfs daemon --enable-pubsub-experiment"
 
 
+
+
 The name eAgora stands for electronic agora. The definition of agora is given by Samuel Edward Konkin III as:
 
 
