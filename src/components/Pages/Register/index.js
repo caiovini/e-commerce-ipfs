@@ -4,11 +4,11 @@ import { Row , Col , Card , Form , FormControl } from 'react-bootstrap';
 import web3 from '../../../ethereum/web3';
 import agora from '../../../ethereum/agora';
 import { MdFiberManualRecord } from 'react-icons/md';
-import { RSA} from 'hybrid-crypto-js';
 import md5 from 'md5';
 import './index.css';
 
 const { withGun } = require('react-gun');
+var RSA = require('hybrid-crypto-js').RSA;
 
 class RegisterForm extends React.Component {
 

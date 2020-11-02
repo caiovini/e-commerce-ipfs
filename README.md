@@ -1,3 +1,7 @@
+## Demo 
+
+![alt text](https://github.com/caiovini/nano-world/blob/master/Demo.gif)
+
 # e-commerce-ipfs
 E-commerce developed using ipfs and orbit db to store user's data
 

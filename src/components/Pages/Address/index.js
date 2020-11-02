@@ -3,13 +3,12 @@ import React , { Component } from 'react';
 import { Menu } from 'semantic-ui-react';
 import { buyer  , seller } from '../../orbitdb/orbit';
 import agora from '../../../ethereum/agora';
-import { Crypt } from 'hybrid-crypto-js';
 import './index.css';
 
 const { withGun } = require('react-gun');
 const Insert = require('../../orbitdb/insert'); //Insert data from database
 const Fetch = require('../../orbitdb/fetch'); //Fetch data from database
-
+var Crypt = require('hybrid-crypto-js').Crypt;
 
 class Address extends Component{
 
